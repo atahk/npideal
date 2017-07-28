@@ -1,0 +1,3 @@
+useDynLib(npideal)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
