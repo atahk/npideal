@@ -1,7 +1,7 @@
 Package: npideal
 Type: Package
 Title: Nonparametric Ideal-Point Estimation and Inference
-Version: 0.1
+Version: 0.1.1
 Date: 2016-03-15
 Author: Alexander Tahk
 Maintainer: Alexander Tahk <atahk@wisc.edu>
@@ -10,6 +10,6 @@ Description: Functions to ideal-point ordering and perform related
 	     model and methods introduced by Tahk (2017).
 License: GPL-3
 Imports: Rcpp (>= 0.11.6)
-LinkingTo: Rcpp, RcppArmadillo
+LinkingTo: Rcpp, RcppEigen
 URL: http://github.com/atahk/npideal
 NeedsCompilation: yes
